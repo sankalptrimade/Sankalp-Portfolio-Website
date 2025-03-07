@@ -4,15 +4,17 @@ import RevealOnScroll from "./RevealOnScroll";
 const Home = () => {
   const handleDownloadResume = () => {
     const resumeUrl =
-      "https://drive.google.com/uc?export=download&id=14v8CmE1s7BoAAkxHrRSgqsLMTQ2_N_LS";
-
+      "https://drive.google.com/uc?export=download&id=1pHfYBlv1zfUIELScEPGb7gPJFE1ElHDy";
+  
     const anchor = document.createElement("a");
     anchor.href = resumeUrl;
-    anchor.download = "Sankalp_Resume.pdf"; // This renames the file when downloaded
+    anchor.download = "Sankalp_Resume.pdf"; // Ensures correct file name
     document.body.appendChild(anchor);
     anchor.click();
     document.body.removeChild(anchor);
   };
+  
+
   return (
     <section
       id="home"
