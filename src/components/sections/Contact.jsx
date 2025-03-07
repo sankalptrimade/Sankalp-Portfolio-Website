@@ -94,7 +94,7 @@ const Contact = () => {
             {/* Social Media Icons */}
             <div className="flex justify-center space-x-6 mt-6">
               <a
-                href="https://www.linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/sankalp-trimade-7678a31a5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-500 transition transform hover:-translate-y-1 text-2xl"
@@ -102,7 +102,7 @@ const Contact = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/sankalptrimade"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-300 transition transform hover:-translate-y-1 text-2xl"
@@ -110,7 +110,7 @@ const Contact = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://instagram.com/yourprofile"
+                href="https://www.instagram.com/sankalp.trimade/?next=%2F&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pink-500 transition transform hover:-translate-y-1 text-2xl"
@@ -118,7 +118,7 @@ const Contact = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://facebook.com/yourprofile"
+                href="https://www.facebook.com/sankalp.trimade.3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-600 transition transform hover:-translate-y-1 text-2xl"
